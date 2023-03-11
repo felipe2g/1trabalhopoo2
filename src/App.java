@@ -61,7 +61,7 @@ public class App {
         
         System.out.println("Saldo => " + contaCorrente.getSaldo());
 
-        CodigoPostal codigoPostal = new CodigoPostal("indicativo", "extensão", "Nome da Zona");
+        CodigoPostal codigoPostal = new CodigoPostal("38424", "790", "São Paulo");
         System.out.println(codigoPostal.toString());
 
         sc.close();

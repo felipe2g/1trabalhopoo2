@@ -35,6 +35,6 @@ public class CodigoPostal {
 
     @Override
     public String toString() {
-        return indicativo + " " + extensão + " " + nomeDaZona;
+        return indicativo + "-" + extensão + " " + nomeDaZona;
     }
 }
